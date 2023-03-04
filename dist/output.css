@@ -565,6 +565,22 @@ video {
   margin-bottom: 25%;
 }
 
+.mb-\[\%\] {
+  margin-bottom: %;
+}
+
+.mr-\[25\%\] {
+  margin-right: 25%;
+}
+
+.mr-\[15\%\] {
+  margin-right: 15%;
+}
+
+.mr-\[10\%\] {
+  margin-right: 10%;
+}
+
 .flex {
   display: flex;
 }
@@ -697,6 +713,46 @@ video {
   width: 30%;
 }
 
+.w-\[5\] {
+  width: 5;
+}
+
+.w-\[55\%\] {
+  width: 55%;
+}
+
+.w-\[75\%\] {
+  width: 75%;
+}
+
+.w-\[74\%\] {
+  width: 74%;
+}
+
+.w-\[7\%\] {
+  width: 7%;
+}
+
+.w-\[72\%\] {
+  width: 72%;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-\[35\%\] {
+  width: 35%;
+}
+
+.w-\[40\%\] {
+  width: 40%;
+}
+
+.w-\[65\%\] {
+  width: 65%;
+}
+
 .max-w-\[210px\] {
   max-width: 210px;
 }
@@ -709,12 +765,20 @@ video {
   flex-direction: column;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-end {
   align-items: flex-end;
 }
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-end {
@@ -889,12 +953,20 @@ video {
   padding-bottom: 5%;
 }
 
+.pl-\[10\%\] {
+  padding-left: 10%;
+}
+
 .text-center {
   text-align: center;
 }
 
 .text-right {
   text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .text-\[10px\] {
@@ -908,6 +980,16 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -1050,6 +1132,12 @@ video {
   outline-offset: 2px;
 }
 
+@media (max-width: 426px) {
+  .max-\[426px\]\:w-\[5\%\] {
+    width: 5%;
+  }
+}
+
 @media (min-width: 375px) {
   .mobile-m\:p-12 {
     padding: 3rem;
@@ -1057,12 +1145,52 @@ video {
 }
 
 @media (min-width: 425px) {
+  .mobile-l\:w-\[75\%\] {
+    width: 75%;
+  }
+
+  .mobile-l\:w-\[95\%\] {
+    width: 95%;
+  }
+
+  .mobile-l\:w-\[100\%\] {
+    width: 100%;
+  }
+
+  .mobile-l\:w-\[\] {
+    width: ;
+  }
+
+  .mobile-l\:w-\[45\%\] {
+    width: 45%;
+  }
+
+  .mobile-l\:w-\[10\%\] {
+    width: 10%;
+  }
+
+  .mobile-l\:w-\[30\%\] {
+    width: 30%;
+  }
+
   .mobile-l\:p-16 {
     padding: 4rem;
   }
 }
 
 @media (min-width: 768px) {
+  .md\:w-\[65\%\] {
+    width: 65%;
+  }
+
+  .md\:w-\[35\%\] {
+    width: 35%;
+  }
+
+  .md\:w-\[40\%\] {
+    width: 40%;
+  }
+
   .md\:p-0 {
     padding: 0px;
   }

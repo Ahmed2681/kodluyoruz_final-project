@@ -53,8 +53,10 @@
 
     <main class="h-[800px] w-full bg-cyan-50"></main>
 
-    <footer class="h-auto w-full bg-green-100"> 
-      <div class="flex flex-row items-center justify-center pl-[5%] pt-[5%] pb-[5%]">
+    <footer class="h-auto w-full bg-green-100">
+      <div
+        class="flex flex-row items-center justify-center pl-[5%] pt-[5%] pb-[5%]"
+      >
         <!-- pages -->
         <div class="flex w-[25%] items-center justify-center">
           <ul class="pr-[10%]">
@@ -74,19 +76,34 @@
                 <a href="./blog.html">Blog</a>
               </div>
             </li>
-            <li
-              class="mb-[5%]"
-            >
-              <div class="rounded-full pr-3 pt-1 pb-1 hover:ml-[5%] hover:w-full hover:bg-green-500 hover:pl-3 hover:text-white hover:text-center">
+            <li class="mb-[5%]">
+              <div
+                class="rounded-full pr-3 pt-1 pb-1 hover:ml-[5%] hover:w-full hover:bg-green-500 hover:pl-3 hover:text-center hover:text-white"
+              >
                 <a href="./contactUs.html">İletişim</a>
               </div>
             </li>
           </ul>
         </div>
         <!-- logo -->
-        <div class="w-[50%]"></div>
+        <div class="flex md:w-[40%] mobile-l:w-[30%] justify-center">
+          <a href="./index.html"
+            ><img width="400" src="./img/logo.png" alt="logo.png"
+          /></a>
+        </div>
         <!-- address -->
-        <div class="w-[25%]"></div>
+        <div
+          class="flex md:w-[35%] mobile-l:w-[45%] flex-col items-center"
+        >
+          <div class="mr-[10%] md:w-[65%] mobile-l:w-[100%] text-right">
+            <p class="text-lg font-[600]">Adres</p>
+            <hr class="mb-[10%] w-auto border-green-500" />
+            <address>
+              Lorem Mah. Ipsum Dolor Cad. Sit Amet Sokak No: 4
+              Consectetur/ADİPİSİCİNG
+            </address>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
