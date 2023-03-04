@@ -8,8 +8,16 @@
     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
 
     <title>Fit Yazılım</title>
+
+    <script>
+      function goVideo() {
+        document
+          .getElementById("main-video")
+          .scrollIntoView({ behavior: "smooth" });
+      }
+    </script>
   </head>
-  <body>
+  <body onload="goVideo()">
     <header
       class="flex min-h-[100px] flex-row items-center justify-center bg-green-100 text-center"
     >
@@ -54,16 +62,20 @@
     <main class="h-[800px] w-full bg-cyan-50">
       <section>
         <div class="main-slider-item">
-          <div class="min-h-[100%]: absolute min-w-[100%]">
-            <video muted loop playsinline autoplay class="h-[100%] w-[100%]">
-              <source
-                src="./video/clapping-hand.webm"
-                type="video/webm"
-              />
+          <div class="min-h-[105%]: absolute min-w-[105%]">
+            <video
+              id="main-video"
+              muted
+              loop
+              playsinline
+              autoplay
+              class="h-[100%] w-[100%]"
+            >
+              <source src="./video/clapping-hand.webm" type="video/webm" />
             </video>
           </div>
           <div
-            class="absolute flex w-full flex-col items-center justify-center pt-[30%] text-center"
+            class="absolute flex w-full flex-col items-center justify-center pt-[35%] text-center"
           >
             <div
               class="flex h-full w-full flex-col items-center justify-center text-center"
@@ -74,12 +86,14 @@
                 FİT BİR YAZILIMCI !
               </p>
               <p
-                class="w-[100%] text-center mobile-s:text-[15px] mobile-m:text-xl text-green-500 antialiased md:text-4xl"
+                class="w-[100%] text-center text-green-500 antialiased mobile-s:text-[15px] mobile-m:text-xl md:text-4xl"
               >
                 Üzerinde çalışacağın en iyi proje sensin.
               </p>
             </div>
           </div>
+
+          
         </div>
       </section>
     </main>
