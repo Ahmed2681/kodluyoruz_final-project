@@ -661,10 +661,6 @@ video {
   padding-top: 5%;
 }
 
-.pb-3 {
-  padding-bottom: 0.75rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -750,47 +746,27 @@ video {
     padding: 0px;
   }
 
-  .md\:pl-\[150px\] {
-    padding-left: 150px;
-  }
-
-  .md\:pr-\[150px\] {
-    padding-right: 150px;
-  }
-
-  .md\:pt-\[20px\] {
-    padding-top: 20px;
-  }
-
-  .md\:pr-\[120px\] {
-    padding-right: 120px;
-  }
-
-  .md\:pl-\[120px\] {
-    padding-left: 120px;
-  }
-
-  .md\:pl-\[100px\] {
-    padding-left: 100px;
-  }
-
-  .md\:pr-\[100px\] {
-    padding-right: 100px;
-  }
-
-  .md\:pr-\[0px\] {
-    padding-right: 0px;
+  .md\:pl-\[80px\] {
+    padding-left: 80px;
   }
 
   .md\:pr-\[80px\] {
     padding-right: 80px;
   }
 
-  .md\:pl-\[80px\] {
-    padding-left: 80px;
+  .md\:pt-\[20px\] {
+    padding-top: 20px;
+  }
+
+  .md\:pb-1 {
+    padding-bottom: 0.25rem;
   }
 
   .md\:pb-3 {
     padding-bottom: 0.75rem;
+  }
+
+  .md\:pb-6 {
+    padding-bottom: 1.5rem;
   }
 }
