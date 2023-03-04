@@ -537,12 +537,84 @@ video {
   margin-right: 3%;
 }
 
+.ml-\[10\%\] {
+  margin-left: 10%;
+}
+
+.ml-\[5\%\] {
+  margin-left: 5%;
+}
+
+.mt-\[10\%\] {
+  margin-top: 10%;
+}
+
+.mb-\[10\%\] {
+  margin-bottom: 10%;
+}
+
+.mb-\[15\%\] {
+  margin-bottom: 15%;
+}
+
+.mb-\[5\%\] {
+  margin-bottom: 5%;
+}
+
+.mb-\[25\%\] {
+  margin-bottom: 25%;
+}
+
 .flex {
   display: flex;
 }
 
 .h-auto {
   height: auto;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-\[100\%\] {
+  height: 100%;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.h-\[1500px\] {
+  height: 1500px;
+}
+
+.h-\[96\] {
+  height: 96;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[900px\] {
+  height: 900px;
+}
+
+.h-\[800px\] {
+  height: 800px;
 }
 
 .min-h-\[100px\] {
@@ -575,6 +647,54 @@ video {
 
 .w-auto {
   width: auto;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-\[25\%\] {
+  width: 25%;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-\[5\%\] {
+  width: 5%;
+}
+
+.w-\[2\%\] {
+  width: 2%;
+}
+
+.w-\[110\%\] {
+  width: 110%;
+}
+
+.w-\[140\%\] {
+  width: 140%;
+}
+
+.w-\[120\%\] {
+  width: 120%;
+}
+
+.w-\[1\] {
+  width: 1;
+}
+
+.w-\[120\] {
+  width: 120;
+}
+
+.w-\[auto\] {
+  width: auto;
+}
+
+.w-\[30\%\] {
+  width: 30%;
 }
 
 .max-w-\[210px\] {
@@ -622,6 +742,11 @@ video {
   border-color: rgb(34 197 94 / var(--tw-border-opacity));
 }
 
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -662,6 +787,16 @@ video {
   background-color: rgb(21 128 61 / var(--tw-bg-opacity));
 }
 
+.bg-green-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
+}
+
+.bg-cyan-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 254 255 / var(--tw-bg-opacity));
+}
+
 .p-5 {
   padding: 1.25rem;
 }
@@ -672,6 +807,10 @@ video {
 
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-0 {
+  padding: 0px;
 }
 
 .pb-1 {
@@ -718,6 +857,38 @@ video {
   padding-right: 0.75rem;
 }
 
+.pl-\[2\%\] {
+  padding-left: 2%;
+}
+
+.pt-\[5\%\] {
+  padding-top: 5%;
+}
+
+.pl-\[15\%\] {
+  padding-left: 15%;
+}
+
+.pr-\[10\%\] {
+  padding-right: 10%;
+}
+
+.pr-0 {
+  padding-right: 0px;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
+.pb-\[10\%\] {
+  padding-bottom: 10%;
+}
+
+.pb-\[5\%\] {
+  padding-bottom: 5%;
+}
+
 .text-center {
   text-align: center;
 }
@@ -734,8 +905,37 @@ video {
   font-size: 11px;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-\[30\] {
+  font-weight: 30;
+}
+
+.font-\[300\] {
+  font-weight: 300;
+}
+
+.font-\[20\] {
+  font-weight: 20;
+}
+
+.font-\[200\] {
+  font-weight: 200;
+}
+
+.font-\[900\] {
+  font-weight: 900;
+}
+
+.font-\[600\] {
+  font-weight: 600;
 }
 
 .italic {
@@ -756,6 +956,42 @@ video {
   text-decoration-line: underline;
 }
 
+.hover\:ml-\[15\%\]:hover {
+  margin-left: 15%;
+}
+
+.hover\:ml-\[5\%\]:hover {
+  margin-left: 5%;
+}
+
+.hover\:ml-\[0\%\]:hover {
+  margin-left: 0%;
+}
+
+.hover\:ml-0:hover {
+  margin-left: 0px;
+}
+
+.hover\:ml-3:hover {
+  margin-left: 0.75rem;
+}
+
+.hover\:w-full:hover {
+  width: 100%;
+}
+
+.hover\:w-auto:hover {
+  width: auto;
+}
+
+.hover\:w-\[30\%\]:hover {
+  width: 30%;
+}
+
+.hover\:w-\[\%\]:hover {
+  width: %;
+}
+
 .hover\:rounded-full:hover {
   border-radius: 9999px;
 }
@@ -768,6 +1004,35 @@ video {
 .hover\:bg-green-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-green-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
+}
+
+.hover\:pl-\[15\%\]:hover {
+  padding-left: 15%;
+}
+
+.hover\:pl-3:hover {
+  padding-left: 0.75rem;
+}
+
+.hover\:pl-0:hover {
+  padding-left: 0px;
+}
+
+.hover\:pl-2:hover {
+  padding-left: 0.5rem;
+}
+
+.hover\:pl-1:hover {
+  padding-left: 0.25rem;
+}
+
+.hover\:text-center:hover {
+  text-align: center;
 }
 
 .hover\:text-white:hover {
