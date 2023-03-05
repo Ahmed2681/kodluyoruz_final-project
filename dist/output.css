@@ -569,6 +569,10 @@ video {
   margin-top: 9%;
 }
 
+.mt-\[15\%\] {
+  margin-top: 15%;
+}
+
 .flex {
   display: flex;
 }
@@ -832,6 +836,10 @@ video {
   padding-top: 10px;
 }
 
+.pt-\[25\%\] {
+  padding-top: 25%;
+}
+
 .pt-\[35\%\] {
   padding-top: 35%;
 }
@@ -842,6 +850,10 @@ video {
 
 .pt-\[52\%\] {
   padding-top: 52%;
+}
+
+.pt-\[15\%\] {
+  padding-top: 15%;
 }
 
 .text-center {
